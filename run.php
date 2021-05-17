@@ -2,12 +2,16 @@
 session_start();
 include "autoload.php";
 
+use Main\TicTac;
+use Intellect\AI;
+use Maps\Map;
+
 if (isset($_GET['newgame'])) {
     unset($_SESSION['map']);
     unset($_SESSION['message']);
 }
 
-$tictac = new TicTac(4);
+$tictac = new TicTac(3);
 $ai = new AI($tictac);
 
 if (isset($_SESSION['map'])) {

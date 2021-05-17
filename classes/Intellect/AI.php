@@ -1,5 +1,8 @@
 <?php
 
+namespace Intellect;
+
+use Main\TicTac;
 
 class AI
 {
