@@ -1,5 +1,5 @@
 <?php
-namespace Main;
+namespace TicTa;
 
 class TicTac
 {

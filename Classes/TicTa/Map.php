@@ -1,6 +1,6 @@
 <?php
 
-namespace Maps;
+namespace TicTa;
 class Map
 {
     protected array $map = [];

@@ -1,13 +1,13 @@
 <?php
 session_start();
-include "../autoload.php";
+include "../vendor/autoload.php";
 
-use Main\TicTac;
-use Intellect\AI;
-use Maps\Map;
+use TicTa\TicTac;
+use TicTa\AI;
+use TicTa\Map;
 
 if (isset($_GET['newgame'])) {
-    unset($_SESSION['map']);
+//    unset($_SESSION['map']);
     unset($_SESSION['message']);
 }
 
