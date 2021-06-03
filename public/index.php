@@ -11,7 +11,7 @@ if (isset($_GET['newgame'])) {
     unset($_SESSION['message']);
 }
 
-$tictac = new TicTac(10);
+$tictac = new TicTac(4);
 $ai = new AI($tictac);
 
 if (isset($_SESSION['map'])) {
